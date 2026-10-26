@@ -52,7 +52,7 @@ def auth():
     """
     use_expired = "expired" in request.args
 
-    key = store.expired_key if use_expired else store.good_key
+    key = store.get_key(expired=use_expired)
 
     now = int(time.time())
     if use_expired:

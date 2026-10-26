@@ -4,3 +4,7 @@ __pycache__/
 .coverage
 htmlcov/
 .DS_Store
+totally_not_my_privateKeys.db
+.coverage
+__pycache__/
+.pytest_cache/
